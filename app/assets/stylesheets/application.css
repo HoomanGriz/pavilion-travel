@@ -13,3 +13,18 @@
  *= require_tree .
  *= require_self
  */
+
+ body {
+  background-image: url(travel1.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+ }
+
+ html {
+  height: 100%;
+ }
+
+ .login {
+  float: right;
+  margin-right: 40px;
+ }
