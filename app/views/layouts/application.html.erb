@@ -6,8 +6,23 @@
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
 </head>
+
 <body>
 
+  <div>
+    <h1>Pavilion Travel</h1>
+  </div>
+
+  <ul class="navbar">
+    <li>Home</li>
+    <li>Search For Fares</li>
+    <li>Contact Us</li>
+   <% if !@user %>
+      <li>Login</li>
+    <% else %>
+      <li>Logout</li>
+    <% end %>
+  </ul>
 <%= yield %>
 
 </body>

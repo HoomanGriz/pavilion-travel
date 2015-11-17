@@ -22,9 +22,28 @@
 
  html {
   height: 100%;
+  font-family: sans-serif;
  }
 
  .login {
   float: right;
   margin-right: 40px;
+ }
+
+h1 {
+  color: red;
+  /*font-family: sans-serif;*/
+  padding: 10px;
+  margin-left: 40px;
+  margin-right: auto;
+}
+
+.navbar {
+  background: transparent;
+}
+
+ li {
+  /*color:;*/
+  display: inline-block;
+  padding: 10px;
  }
